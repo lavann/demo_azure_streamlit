@@ -2,7 +2,7 @@ name: Docker_Build_Push
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
