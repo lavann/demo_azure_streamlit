@@ -40,5 +40,5 @@ jobs:
     - name: Restart Azure App Service
       run: |
         az login --service-principal --username ${{ secrets.AZURE_CLIENT_ID }} --password ${{ secrets.AZURE_CLIENT_SECRET }} --tenant ${{ secrets.AZURE_TENANT_ID }}
-        az webapp restart --name your-app-service-name --resource-group your-resource-group-name
+        az webapp restart --lanallai-streamlit-cont-dev --resource-group lanallai-dev-eus-rg
       shell: bash    
